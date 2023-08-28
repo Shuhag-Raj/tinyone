@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Sans', sans-serif;
+}
+/* Start Header Part */
+#header_part{
+    padding: 15px 0;
+    background: transparent
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; */
+}
+.navbar-nav li a{
+    font-size: 18px;
+    line-height: 20px;
+    color: #010101;
+    font-weight: 700;
+    font-family: "PT Sans";
+}
+.navbar-nav li a:hover{
+    color: #00588b;
+}
+/* End Header Part */
+
+/* Start Slider Part */
+#slider_part{
+    background: #fbdb00; 
+    padding: 280px 0 30px 0;
+    margin-top: -250px;
+} 
+.slider_con h5{ 
+    font-size: 20px;
+    line-height: 24px;
+    color: #313841; 
+    margin-top: 20px;
+    }
+.slider_con h2,
+.feature_header h2{
+    font-size: 36px;
+    line-height: 34px;
+    color: #010101;
+    font-weight: 700; 
+}
+.slider_con p,
+.feature_sub-header p{ 
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555; 
+    margin-top: 20px;
+}
+.store_icons ul li{
+    margin-top: 20px;
+}
+.store_icons ul li a{ 
+    font-size: 35px;
+    line-height: 20px;
+    color: #010101;
+    font-family: "Font Awesome";
+}
+.store_icons ul li a:hover{
+    color: #1c7dfc;
+}
+.slider_bullets{
+    font-size: 10px;
+    color: #fded80;
+} 
+/* End Slider Part */
+
+/* Sart Feature Part */
+#feature_part{
+    padding: 120px 0;
+}
+.featured_icon{
+    font-size: 45px;
+    line-height: 53px;
+    color: #010101;
+    font-family: "Font Awesome";
+    text-align: center;
+}
+.featured_icon:hover{
+    color: #0087bd;
+}
+.featured_con h4{
+    font-size: 22px;
+    line-height: 24px;
+    color: #010101;
+    font-weight: 400; 
+}
+.featured_con p{ 
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989; 
+    margin-top: 15px;
+}
+/* End Feature Part */
+
+/* Start Footer Part */
+#footer_part{
+    background: #000;
+    padding: 60px 0;
+}
+.h_yellow h2{
+    color:  #fcdb00;
+} 
+.form-control{
+    display: inline-block;
+    width: 60%;
+    font-size: 12px; 
+    padding: 0.75rem .75rem;
+}
+.form-control:focus{
+    border-color: #008fa862;
+    box-shadow: 0 0 0 .15rem rgba(13, 109, 253, 0.151);
+}
+ .form button{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #010101;
+    font-weight: 700;
+    font-family: "PT Sans";
+    padding: 8px 35px;
+}
+.social_connect{
+    padding: 70px 0;
+}
+.social_connect ul li a{
+    width: 40px;
+    height: 40px;
+    background: #fcdb00;
+    display: block;
+    line-height: 40px; 
+    color: #000000; 
+    font-size: 20px;
+    border-radius: 8px;
+    transition: transform .5s;
+}
+.social_connect ul li a:hover{
+    transform: rotate(360deg);
+    background: #0087bd;
+    color: #ffffff;
+}
+.footer_address ul li a{
+    text-decoration: none;
+    color: #ffffff; 
+}
+.footer_address ul li a:hover{
+    color: #6fb8fc;
+}
+/* End Footer Part */
